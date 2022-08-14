@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #161b22;
+    color:white;
+}
+.heading{
+    text-align: center;
+}
+.calbody{
+    position:fixed;
+    top:9vh;
+    left:33vw;
+    right:33vw;
+    width:32vw;
+    height:75vh;
+    min-width:40px;
+    min-height: 90px;
+    border:solid 5px white;
+    background-color: cadetblue;
+    border-radius: 5%;
+}
+.calbody h2{
+    text-align: center;
+    color: black;
+}
+.caldis{
+    position:relative;
+    width:80%;
+    left:10%;
+    right:10%;
+    top:5%;
+    height:16%;
+    background-color: rgba(255, 255, 255, 0.687);
+    border:solid 2px black;
+}
+.caldis p{
+    color:black;
+    font-size: 200%;
+    font-weight: bold;
+
+}
+.calkeys{
+    position:relative;
+    top:14%;
+    width:80%;
+    left:10%;
+    right:10%;
+    height:65%;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+.key{
+    display:flex;
+    justify-content: center;
+   
+}
+.keytype{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    width:90%;
+    height:90%;
+    border-radius: 30%;
+    border:solid 1px black;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.s0,.s00{
+    background-color: white;
+}
+.mod,.di,.x,.mi,.pl{
+    background-color: #4cb3af;
+}
+.ac,.c{
+    background-color: #1e7a83;
+}
+.eq{
+    background-color: #f49c4a;
+}
