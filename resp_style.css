@@ -1,0 +1,21 @@
+@media screen and (max-width: 500px) and (max-height: 800px){
+    .calbody{
+    font-family: 'Digital-7';
+    position:fixed;
+    left:0%;
+    right:0%;
+     width:100vw;
+    height:75vh;
+    border:solid 5px cadetblue;
+    background-color: cadetblue;
+    border-radius: 5%;
+}
+.calkeys{
+    position:relative;
+    width:80%;
+    height:65%;
+    display:grid;
+    grid-template-columns: 24vw 24vw 24vw 24vw;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+}
+}

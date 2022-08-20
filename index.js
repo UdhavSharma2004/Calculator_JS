@@ -1,3 +1,8 @@
+let urname=prompt("Hello! This Calculator is created by Udhav Sharma😎.\nThanks for using this product\nCan you please share you name->")
+if(urname==null||urname==""){
+urname="Mr. Anonymous"
+}
+document.getElementById("urnamei").innerText+="\n User : "+urname
 let obj=document.getElementById("display")
     let count=0;
     let ans;
@@ -38,6 +43,15 @@ let obj=document.getElementById("display")
         obj.innerText+=value;
     }
     function equal(){
-        ans=obj.innerText
-       obj.innerText= eval(ans)
+        let eq=obj.innerText.slice(0,1)
+        if(eq=='='){
+            ans=obj.innerText.slice(1, obj.innerText.length)
+            ans= eval(ans)
+        }
+        else{
+            ans=obj.innerText
+       ans= eval(ans)
+        }
+        obj.innerText='='
+        obj.innerText+=ans
     }

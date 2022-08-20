@@ -5,21 +5,22 @@
 body{
     background-color: #161b22;
     color:white;
+    
 }
 .heading{
     text-align: center;
+    font-size: auto;
+    max-height: fit-content;
 }
 .calbody{
     font-family: 'Digital-7';
     position:fixed;
-    top:9%;
-    left:33%;
-    right:33%;
-    width:32vw;
+    left:32%;
+    right:32%;
+    top:10%;
+     width:32vw;
     height:75vh;
-    min-height:575px;
-    min-width:480px;
-    border:solid 5px white;
+    border:solid 8px cadetblue;
     background-color: cadetblue;
     border-radius: 5%;
 }
@@ -29,19 +30,17 @@ body{
 }
 .caldis{
     position:relative;
-    width:80%;
-    left:10%;
-    right:10%;
-    top:5%;
-    height: 18%;
+    top:0%;
+    height: 14vh; 
     background-color: rgba(255, 255, 255, 0.687);
     border:solid 2px black;
-    scrollbar-width: 2px;
+    box-shadow: 0px 5px 5px 0px rgb(94, 94, 94);
+    margin-bottom: 3%;
 }
 .caldis p{
     margin:0.5% 0 0.5% 1%;
     color:black;
-    font-size: 75px;
+    font-size:5rem;
     font-weight: bold;
     height:100%;
     overflow-x: auto;
@@ -50,19 +49,15 @@ body{
 }
 .calkeys{
     position:relative;
-    top:14%;
     width:80%;
-    left:10%;
-    right:10%;
     height:65%;
     display:grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 75px 75px 75px 75px 75px;
+    grid-template-columns: 8vw 8vw 8vw 8vw;
+    grid-template-rows: 11vh 11vh 11vh 11vh 11vh;
 }
 .key{
     display:flex;
     justify-content: center;
-   
 }
 .keytype{
     font-family: 'Digital-7';
