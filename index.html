@@ -7,75 +7,75 @@
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
     <title>Calculator || Udhav Sharma</title>
     <link rel="stylesheet" href="./index.css">
-    <script src="./index.js"></script>
 </head>
 <body>
     <h2 class="heading">Welcome to this Basic calculator made purely by HTML, CSS, JavaScript by Udhav Sharma</h2>
     <div class="calbody">
         <h2>CASIO</h2>
-        <div class="caldis"><p id="display"></p></div>
+        <div class="caldis"><p id="display">0</p></div>
         <div class="calkeys">
             <div class="key">
-                <button class="keytype" id="ac" onlick="">AC</button>
+                <button class="keytype" id="ac" onclick="pro('a')">AC</button>
             </div>
             <div class="key">
-                <button class="keytype" id="c" onlick="">C</button>
+                <button class="keytype" id="c" onclick="pro('c')">C</button>
             </div>
             <div class="key">
-                <button class="keytype" id="mod" onlick="">%</button>
+                <button class="keytype" id="mod" onclick="pro('%')">%</button>
             </div>
             <div class="key">
-                <button class="keytype" id="di" onlick="">/</button>
+                <button class="keytype" id="di" onclick="pro('/')">/</button>
             </div>
             <div class="key">
-                <button class="keytype" id="seven" onlick="">7</button>
+                <button class="keytype" id="seven" onclick="pro(7)">7</button>
             </div>
             <div class="key">
-                <button class="keytype" id="eight" onlick="">8</button>
+                <button class="keytype" id="eight" onclick="pro(8)">8</button>
             </div>
             <div class="key">
-                <button class="keytype" id="nine" onlick="">9</button>
+                <button class="keytype" id="nine" onclick="pro(9)">9</button>
             </div>
             <div class="key">
-                <button class="keytype" id="x" onlick="">x</button>
+                <button class="keytype" id="x" onclick="pro('*')">x</button>
             </div>
             <div class="key">
-                <button class="keytype" id="four" onlick="">4</button>
+                <button class="keytype" id="four" onclick="pro(4)">4</button>
             </div>
             <div class="key">
-                <button class="keytype" id="five" onlick="">5</button>
+                <button class="keytype" id="five" onclick="pro(5)">5</button>
             </div>
             <div class="key">
-                <button class="keytype" id="six" onlick="">6</button>
+                <button class="keytype" id="six" onclick="pro(6)">6</button>
             </div>
             <div class="key">
-                <button class="keytype" id="mi" onlick="">-</button>
+                <button class="keytype" id="mi" onclick="pro('-')">-</button>
             </div>
             <div class="key">
-                <button class="keytype" id="one" onlick="">1</button>
+                <button class="keytype" id="one" onclick="pro(1)">1</button>
             </div>
             <div class="key">
-                <button class="keytype" id="two" onlick="">2</button>
+                <button class="keytype" id="two" onclick="pro(2)">2</button>
             </div>
             <div class="key">
-                <button class="keytype" id="three" onlick="">3</button>
+                <button class="keytype" id="three" onclick="pro(3)">3</button>
             </div>
             <div class="key">
-                <button class="keytype" id="pl" onlick="">+</button>
+                <button class="keytype" id="pl" onclick="pro('+')">+</button>
             </div>
             <div class="key">
-                <button class="keytype" id="dec" onlick="">.</button>
+                <button class="keytype" id="dec" onclick="pro('.')">.</button>
             </div>
             <div class="key">
-                <button class="keytype s0" onlick="">0</button>
+                <button class="keytype" id="s0" onclick="pro(0)">0</button>
             </div>
             <div class="key">
-                <button class="keytype s00" onlick="">00</button>
+                <button class="keytype" id="s00" onclick="pro('z')">00</button>
             </div>
             <div class="key">
-                <button class="keytype eq" onlick="">=</button>
+                <button class="keytype" id="eq" onclick="equal()">=</button>
             </div>
         </div>
     </div>
 </body>
+<script src="./index.js"></script>
 </html>

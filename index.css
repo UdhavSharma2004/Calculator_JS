@@ -10,14 +10,15 @@ body{
     text-align: center;
 }
 .calbody{
+    font-family: 'Digital-7';
     position:fixed;
-    top:9vh;
-    left:33vw;
-    right:33vw;
+    top:9%;
+    left:33%;
+    right:33%;
     width:32vw;
     height:75vh;
-    min-width:40px;
-    min-height: 90px;
+    min-height:575px;
+    min-width:480px;
     border:solid 5px white;
     background-color: cadetblue;
     border-radius: 5%;
@@ -32,15 +33,20 @@ body{
     left:10%;
     right:10%;
     top:5%;
-    height:16%;
+    height: 18%;
     background-color: rgba(255, 255, 255, 0.687);
     border:solid 2px black;
+    scrollbar-width: 2px;
 }
 .caldis p{
+    margin:0.5% 0 0.5% 1%;
     color:black;
-    font-size: 200%;
+    font-size: 75px;
     font-weight: bold;
-
+    height:100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    scrollbar-width:2px;
 }
 .calkeys{
     position:relative;
@@ -50,8 +56,8 @@ body{
     right:10%;
     height:65%;
     display:grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 75px 75px 75px 75px 75px;
 }
 .key{
     display:flex;
@@ -59,6 +65,7 @@ body{
    
 }
 .keytype{
+    font-family: 'Digital-7';
     font-size: x-large;
     font-weight: bold;
     text-align: center;
@@ -67,18 +74,35 @@ body{
     border-radius: 30%;
     border:solid 1px black;
 }
-button:hover{
-    transform: scale(1.1);
-}
-.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.s0,.s00{
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#s0,#s00{
     background-color: white;
 }
-.mod,.di,.x,.mi,.pl{
+#mod,#di,#x,#mi,#pl,#dec{
     background-color: #4cb3af;
 }
-.ac,.c{
+#ac,#c{
     background-color: #1e7a83;
 }
-.eq{
+#eq{
     background-color: #f49c4a;
+}
+#one:hover,#two:hover,#three:hover,#four:hover,#five:hover,#six:hover,#seven:hover,#eight:hover,#nine:hover,#s0:hover,#s00:hover{
+    background-color: rgb(179, 179, 179);
+    transform: scale(0.9);
+    box-shadow: 0 6px 6px 0 rgb(94, 94, 94);
+}
+#mod:hover,#di:hover,#x:hover,#mi:hover,#pl:hover,#dec:hover{
+    background-color: #3e9492fe;
+    transform: scale(0.9);
+    box-shadow: 0 6px 6px 0 #1b4140fe;
+}
+#ac:hover,#c:hover{
+    background-color: #18666d;
+    transform: scale(0.9);
+    box-shadow: 0 6px 6px 0 #0a2d30;
+}
+#eq:hover{
+    background-color: #ae7036;
+    transform: scale(0.9);
+    box-shadow: 0 6px 6px 0 #3d2713;
 }
