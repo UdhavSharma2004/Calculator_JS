@@ -1,6 +1,6 @@
 let urname=prompt("Hello! This Calculator is created by Udhav Sharma😎.\nThanks for using this product\nCan you please share you name->")
 if(urname==null||urname==""){
-urname="Mr. Anonymous"
+urname="Unknown"
 }
 document.getElementById("urnamei").innerText+="\n User : "+urname
 let obj=document.getElementById("display")
