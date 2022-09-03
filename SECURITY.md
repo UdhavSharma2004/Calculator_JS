@@ -1,5 +1,5 @@
 # Security Policy
-
+Do not copy this repository else you will be blocked by GitHub Actions.
 ## Supported Versions
 
 Use this section to tell people about which versions of your project are
